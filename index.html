@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Midterm Project</title>
+	<meta name="viewport" content="width=device-width,  initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2" rel="stylesheet">
+	<script src="jquery-3.5.1.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script src="https://kit.fontawesome.com/4319ef4c63.js" crossorigin="anonymous"></script>
+
+
+
+	<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+<body>
+ <style>
+body {
+  background-image: url('https://i.pinimg.com/originals/ec/84/0b/ec840b0eddbabea0c7b5a3884256170c.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+ 	<nav class="navbar navbar-default">
+ 		<div class="container-fluid" style="background-color: #6acf11">
+ 			<div class="navbar-header"></div>
+
+ 		    <div>
+ 				<ul class="nav navbar-nav">
+ 				    <li style="font-weight: 600; background-color: orange"><a href="#">AniArea</a></li>
+ 					<li ><a href="#">Main</a></li>
+ 					<li ><a href="#">Your Anime List</a></li>
+				</ul>
+			</div>
+ 		</div>
+	</nav>
+
+<div class="login">
+	<input type="button" class="auth-link singIn" value="Log In" style="position: absolute;right:60px; top: 10px">
+</div>
+<div class="sign-blok">
+	<div class="sign">
+		<a href="#" class="exit"><i class="fas fa-times"></i></a>
+		<h4 class="sign-head">Log In</h4>
+		<div class="input-data">
+			<label>
+				<input type="text" placeholder="Enter your login">
+			</label>
+		</div>
+		<div class="input-data">
+			<label>
+				<input type="password" placeholder="Enter your possword">
+			</label>
+		</div>
+		<div class="input-btn" >
+			<input type="submit" value="Log In">
+		</div>
+		<p class="notReg">If you dont have account</p>
+		<div class="input-btn notReg-btn">
+			<input type="submit" value="Registration">
+		</div>
+	</div>
+</div>
+              <div class="serch-box" style="width: 100%">
+				  <input class="serch-txt" type="text" name="" placeholder="Type to serch">
+				  <a class="serch-btn" href="#">
+					  <i class="fas fa-search"></i>
+				  </a>
+              </div>
+
+		<div class="container" style="height: 100%">
+			<div class="grid">
+				<header>
+					<div>
+						We offer you the following masterpieces:
+					</div>
+				</header>
+				<article>
+					<h1>Description</h1>
+					<div>
+						<p>Type: TV Series</p>
+						<p>Episodes: 13</p>
+						<p>Episode duration: 24 minutes.</p>
+						<p>Status: from 3 Apr. 2009 to June 26, 2009</p>
+						<p>Genres: Music Everyday Comedy School</p>
+						<p>Rating: PG-13</p>
+					</div>
+				</article>
+				<aside>
+					<img alt="K-On!" src="https://nyaa.shikimori.one/system/animes/original/5680.jpg?1593780973" title="K-On!">
+				</aside>
+				<footer><a href="https://jut.su/k-on/">Watch</a></footer>
+			</div>
+			<div class="grid">
+
+				<article>
+					<h1>Description</h1>
+					<div>
+						<p>Type: TV Series</p>
+						<p>Episodes: 25</p>
+						<p>Episode duration: 24 minutes.</p>
+						<p>Status: from 7 Apr. 2013 to 29 Sept. 2013</p>
+						<p>Genres: Action Military Detective Super Force Drama Fantasy Sonen</p>
+						<p>Rating: PG-17</p>
+					</div>
+				</article>
+				<aside>
+                    <img alt="Shingeki no Kyojin" src="https://desu.shikimori.one/system/animes/original/16498.jpg?1594793400" title="Shingeki no Kyojin">
+                </aside>
+				<footer><a href="https://jut.su/shingeki-no-kyojin/season-1/">Watch</a></footer>
+			</div>
+            <div class="grid">
+                <article>
+                    <h1>Description</h1>
+                    <div>
+                        <p>Type: TV Series</p>
+                        <p>Episodes: 26</p>
+                        <p>Episode duration: 24 minutes.</p>
+                        <p>Status: from 2004-2005 y.</p>
+                        <p>Genres: Action Adventure Comedy Historical Samurai Sonen</p>
+                        <p>Rating: PG-17</p>
+                    </div>
+                </article>
+                <aside>
+                    <img alt="Samurai Champloo" src="https://nyaa.shikimori.one/system/animes/original/205.jpg?1594843287" title="Samurai Champloo">
+                </aside>
+                <footer><a href="https://jut.su/samurai-champloo/">Watch</a></footer>
+            </div>
+
+                   <div class="grid">
+                      <article>
+                        <h1>Description</h1>
+                          <div>
+                          <p>Type: TV Series</p>
+                          <p>Episodes: 24</p>
+                          <p>Episode duration: 24 minutes.</p>
+                          <p>Status: from 6 Apr 2011 to 14 Sept. 2011 r.</p>
+                          <p>Genres: Thriller, Sci-Fi </p>
+                          <p>Rating: PG-13</p>
+                          </div>
+                      </article>
+                       <aside>
+                          <img alt="Steins;Gate" src="https://desu.shikimori.one/system/animes/original/9253.jpg?1594804922" title="Steins;Gate">
+                       </aside>
+                      <footer><a href="https://jut.su/steins-gate/">Watch</a></footer>
+                   </div>
+        </div>
+
+       <div class="feetback">
+           <p>Founder: Koshmatov Aibek</p>
+           <p>Email: koshmatov2001@gmail.com</p>
+           <p>Phone: +996550315305</p>
+           <p>Instagram:<a href="https://www.instagram.com/accounts/onetap/?next=%2F&hl=ru"> KingCrimson_01</a></p>
+       </div>
+ <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+
+
+
+
+    <!--https://i.pinimg.com/originals/ec/84/0b/ec840b0eddbabea0c7b5a3884256170c.jpg'-->
+
+
+
+<!--<img alt="K-On!" src="https://nyaa.shikimori.one/system/animes/original/5680.jpg?1593780973" title="K-On!">
+
+
+			<img alt="Shingeki no Kyojin" src="https://desu.shikimori.one/system/animes/original/16498.jpg?1594793400" title="Shingeki no Kyojin">
+
+				<img alt="Samurai Champloo" src="https://nyaa.shikimori.one/system/animes/original/205.jpg?1594843287" title="Samurai Champloo">
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+
